@@ -1,0 +1,79 @@
+input:invalid {
+    box-shadow: none !important;
+}
+
+.userform h1{
+    font-weight: bolder;
+}
+
+.userform {
+    color: #222 !important;
+    margin-left: 25%;
+    margin-top: 5rem;
+    transition: all ease .5s;
+}
+
+.phonestart{
+    padding: .2rem;
+    margin-left: 1rem;
+    background-color: #007EE5;
+    color:#FFF;
+    border-radius: .2rem;
+    height: 2.4rem;
+}
+
+.sexe{
+    margin-left: 0rem;
+}
+
+#male{
+    display: none;
+}
+
+#female{
+    display: none;
+}
+
+.male,.female{
+    padding: .5rem !important;
+    border: .1rem solid #222;
+    margin-bottom: .5rem;
+    border-radius: 50rem;
+    color: #FFF;
+}
+
+.alert-success{
+    width:45%;
+    background-color: #007EE5;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 1550px;
+    z-index: 999;
+}
+
+.alert-danger{
+    width: 45%;
+    background-color: #FC4445;
+    color: #FFF;
+    position: absolute;
+    top: 45%;
+    left: 1550px;
+    z-index: 999;
+}
+
+.addnew{
+    background-color: #FC4445;
+}
+
+.addnew:hover{
+    background-color: #FF4445;
+}
+
+.correct{
+    background-color: #007EE5;
+}
+
+.correct:hover{
+    background-color: #005EEE;
+}

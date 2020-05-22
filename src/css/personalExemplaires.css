@@ -1,0 +1,23 @@
+.table{
+    width: 80%;
+}
+
+.confirm-box-2{
+    position: fixed;
+    top: 40%;
+    left: 35%;
+    width: 50%;
+    background-color: #007EE5;
+    color: #FFF;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 3px 0px #222;
+    display: none;
+    z-index: 99;
+}
+
+.confirm-box-2 button{
+    box-shadow: 0px 0px 3px 0px #222;
+    margin-left: 2rem;
+}

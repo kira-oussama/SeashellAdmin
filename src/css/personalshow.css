@@ -1,0 +1,31 @@
+.profilecontainer{
+    position: relative;
+    top: 8rem;
+    left: 25%;
+}
+
+.usershowimg{
+    height: 20rem;
+    width: 20rem;
+    float: left;
+    margin-right: 2rem;
+}
+
+.userinfo{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: .2rem;
+}
+
+.username{
+    color: #007ee5;
+}
+
+.clear{
+    clear:both;
+}
+
+.addexemp{
+    margin:.5rem;
+    margin-left: 0rem;
+}

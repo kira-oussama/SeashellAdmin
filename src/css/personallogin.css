@@ -1,0 +1,71 @@
+.showloadingSection{
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    width: 40%;
+    border-radius: .5rem;
+    height: 35.5%;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hideloadingSection{
+    display: none;
+}
+
+.loadingSection img{
+    position: fixed;
+    top: 40%;
+    left: 49%;
+    width: 3rem;
+    background-color: none;
+}
+
+.formContent{
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    width: 40%;
+    padding: 2rem;
+    border: .1rem solid #222;
+    border-radius: .5rem;
+    z-index: 99;
+
+    background: #396afc98;  /* fallback for old browsers */
+
+}
+
+.formContent h1{
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.formContent input{
+    border: .1rem solid #222 !important;
+}
+
+.loginBtn{
+    border: .1rem solid #222 !important;
+    font-weight: bolder !important;
+}
+
+.loginload{
+    width: 1.5rem;
+    margin-left: 1rem;
+}
+
+.loginbook{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: .1rem solid #222;
+    border-radius: 100rem;
+    background-color: #222;
+    padding: 1rem;
+}
+
+.mainimg{
+    position: absolute;
+    bottom: 0rem;
+}
